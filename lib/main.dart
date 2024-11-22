@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'package:mahootchi_shop/view/home_screen/home_screen.dart';
-import 'package:mahootchi_shop/view/product_screen/view/single_product_screen.dart';
+import 'package:mahootchi_shop/view/auth_screen/view/signup_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: Scaffold(
-        body: HomeScreen(),
+        body: SignUpScreen(),
       ),
     );
   }
